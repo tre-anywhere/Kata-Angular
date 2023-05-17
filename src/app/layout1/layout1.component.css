@@ -1,0 +1,67 @@
+/* flexbox as a grid */
+.row{
+    display:flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.column{
+    background-color: lightgray;
+    padding: 1rem 0;
+    flex: 1;
+}
+.colMost{
+    flex-basis: 75%;
+}
+
+.colHalf{
+    flex-basis: 50%;
+}
+.colQuart{
+      flex-basis: 25%;
+  }
+   
+.container {
+    border: 10px solid #0f172a;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* flex-direction: column; */
+    /* justify-content: space-evenly; */
+    /* align-items: flex-start; */
+    /* flex-wrap: wrap; */
+    /* align-content: flex-end; */
+    /* gap: 1em; */
+  }
+  
+  .item-1{
+
+}
+
+.item-2 {
+
+  }
+
+  .item-3 {
+
+  }
+
+  .item-4 {
+  }
+
+  .item-5 {
+  }
+
+  .item-6 {
+  }
+
+  .item-7 {
+  }
+
+  @media only screen and (max-width: 768px){
+    .row{
+        flex-wrap: wrap;
+    }
+    .column{
+        flex-basis: 100%;
+    }
+  }
